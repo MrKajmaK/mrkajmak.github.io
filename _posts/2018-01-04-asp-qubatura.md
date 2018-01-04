@@ -11,7 +11,7 @@ categories:
 - Websites
 ---
 
-**Adres strony:** [Qubatura](http://qubatura.com.pl){:target="_blank"}
+**Adres strony:** [http://qubatura.com.pl](http://qubatura.com.pl){:target="_blank"}
 
 ___
 
