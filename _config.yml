@@ -1,19 +1,16 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+title: F4 Developer
+description: "F4 Junior Developer, Java, WEB"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://localhost:3000" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-disqus_username: loremipsum
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+username: Stanislaw Kowanski
+user_title: Stanisław Kowański - Junior Dev
+email: kajmaczek@kajmaczek.pl
+github_username:  MrKajmaK
+facebook_username: kajmaken
+profile_picture: http://localhost:3000/logo.jpg
 
 # Build settings
 markdown: kramdown
@@ -30,41 +27,49 @@ compress_html:
 # Links to include in menu navigation
 links:
   section_1:
-    - title: home
+    - title: Start
       url: /
       key_trigger: 1
-    - title: my posts
-      url: /posts
-      key_trigger: 2
-    - title: series
-      url: /series
-      key_trigger: 3
-    - title: tags
-      url: /tags
-      key_trigger: 4
-    - title: about me
+    - title: O mnie
       url: /about
-      key_trigger: 5
+      key_trigger: 2
+    - title: Portfolio
+      url: /portfolio
+      key_trigger: 3
   section_2:
     - title: github
-      url: http://www.github.com/victorvoid
-      new_tab: true
+      url: http://www.github.com/mrkajmak
       key_trigger: g
-    - title: twitter
-      url: http://www.twitter.com/victorvoid
-      key_trigger: t
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
+  section_3:
+    - title: xqode
+      url: http://xqode.pro
+      key_trigger: x
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: MCTraps
+    url: /mctraps
+    image: /assets/img/portfolio/MCTraps.png
+    tags:
+      - Web
+      - Java
+  - name: RobRoyArt
+    url: /robroyart
+    image: /assets/img/portfolio/robroyart.png
+    tags:
+      - Web
+  - name: Autorskie Studio Projektu Qubatura
+    url: /asp-qubatura
+    image: /assets/img/portfolio/Qubatura.png
+    tags:
+      - Web
+
+langs:
+  - Java
+  - Web
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

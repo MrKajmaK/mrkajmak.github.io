@@ -4,12 +4,14 @@
     <body>
         {% include svg-icons.html %}
         {% include header-post.html %}
-        {% include tree-posts.html %}
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
             {% if page.date %}
                 <div class="time">
                     <time itemprop="datePublished" datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
                 </div>
+            {% endif %}
+            {% if page.image != '' %}
+            <div class="parallax-window" data-parallax="scroll" data-image-src="{{page.image | prepend: site.url}}"></div>
             {% endif %}
             <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
 
@@ -18,7 +20,6 @@
             </article>
 
             {% include share.html %}
-            {% include comments.html %}
             {% include footer.html %}
             {% include scripts.html %}
         </section>

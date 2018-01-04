@@ -1,0 +1,48 @@
+---
+layout: minimal
+title: "Portfolio"
+permalink: /portfolio/
+description: "Portfolio"
+---
+
+<h2>Portfolio</h2>
+<div class="tags">
+	<a class="cat active" data-filter="all">Wszystko</a>
+	{% assign tags_list = site.langs %}
+	{% if tags_list.first[0] == null %}
+	{% for tag in tags_list %}
+	<a class="cat" data-filter="{{tag | slugify}}">{{ tag }}</a>
+	{% endfor %}
+	{% else %}
+	{% for tag in tags_list %}
+	<a class="cat" data-filter="{{tag | slugify}}">{{ tag[0] }}</a>
+	{% endfor %}
+	{% endif %}
+	{% assign tags_list = nil %}
+</div>
+
+<div class="projects">
+	<div class="portfolio-items">
+		{% for project in site.projects %}
+			{% if project.name != null %}
+			{% assign img = project.image %}
+			{% unless project.image contains 'http://' or project.image contains 'https://' %}
+				{% assign img = site.url | append: project.image %}
+			{% endunless %}
+				<a href="{{project.url}}" class="all {{project.tags | join: ' ' | downcase}}">
+					<figure>
+						<img src="{{img}}" alt="">
+					</figure>
+					<span class="overlay">
+						<span class="text">
+							{{project.name}}
+							<small class="categories">{{project.tags | join: ', '}}</small>
+						</span>
+					</span>
+				</a>
+			{% endif %}
+		{% endfor %}
+		{% assign pages_list = nil %}
+		{% assign group = nil %}
+	</div>
+</div>

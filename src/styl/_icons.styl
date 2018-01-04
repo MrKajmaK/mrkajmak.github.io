@@ -12,6 +12,32 @@ size(width = 30, height = 30)
         border rem(2px) solid sec
         line-height 0
         transition all .7s
+
+        &.email
+            &:hover
+                background: #ffffff
+
+                .icon
+                    fill #000000
+
+        &.fb
+            border-color #3b5998
+
+            .icon
+                fill #3b5998
+
+            &:hover
+                background #3B5998
+
+        &.github
+            border-color #333333
+
+            .icon
+                fill #333333
+
+            &:hover
+                background #333333
+
         .icon
             fill sec
             size(18,18)
@@ -20,7 +46,7 @@ size(width = 30, height = 30)
         &:hover
             background sec
             .icon
-                fill main
+                fill sec
 
 .down
     position absolute

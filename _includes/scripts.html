@@ -1,1 +1,59 @@
-<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+<script src='{{ "/assets/js/main.js" | prepend: site.baseurl }}'></script>
+<script src='{{"/assets/js/skill-bar.js" | prepend: site.baseurl}}'></script>
+<script>
+	$(function() {
+		$('.cat').click(function() {
+			var that = $(this);
+
+			$('.cat.active').removeClass('active');
+			$(this).addClass('active');
+
+			$('.portfolio-items').children().each(function() {
+				if($(this).hasClass(that.data('filter'))) {
+					$(this).removeClass('faded');
+				} else {
+					$(this).addClass('faded');
+				}
+			})
+		})
+	});
+</script>
+<script>
+	$(function() {
+		var colorArr = [
+			"#2D7BA2",
+			"#5C11A5",
+			"#4caf50",
+			"#c0160d",
+			"#111111",
+			"#a47b06",
+			"#21dfb2",
+			"#3f51b5",
+			"#009688",
+			"#ff5722",
+			"#795548"
+		];
+		var currColor = -1;
+
+		var changeBackground = function() {
+			var c = randColor();
+			$('.header-site, .header-post, .icon-menu, .dosearch').css('background', c);
+		};
+
+		var randColor = function() {
+			var rand = Math.floor(Math.random() * colorArr.length);
+			if(currColor === rand)
+				randColor();
+			else {
+				currColor = rand;
+				return colorArr[currColor];
+			}
+		};
+
+		changeBackground();
+
+		setInterval(function() {
+			changeBackground();
+		}, 5000);
+	});
+</script>
