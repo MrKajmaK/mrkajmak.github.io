@@ -7,10 +7,10 @@ url: "http://f4dev.me"
 # User settings
 username: Stanislaw Kowanski
 user_title: Stanisław Kowański - Junior Dev
-email: kajmaczek@kajmaczek.pl
+email: root@f4dev.me
 github_username:  MrKajmaK
 facebook_username: kajmaken
-profile_picture: https://mrkajmak.github.io/logo.jpg
+profile_picture: https://f4dev.me/logo.jpg
 
 # Build settings
 markdown: kramdown
