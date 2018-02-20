@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/skovansky
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://f4dev.me
+  * I am skovansky (https://keybase.io/skovansky) on keybase.
+  * I have a public key ASA_y3VrGCXK6SNiwRG6tUMuVFdWVYdy3_PuZbRJrqM7tAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203fcb756b1825cae92362c111bab5432e545756558772dff3ee65b449aea33bb40a",
+      "host": "keybase.io",
+      "kid": "01203fcb756b1825cae92362c111bab5432e545756558772dff3ee65b449aea33bb40a",
+      "uid": "79ddbc317b8924aa2e57692ca279e419",
+      "username": "skovansky"
+    },
+    "merkle_root": {
+      "ctime": 1519158942,
+      "hash": "0a8f3cfbcbfef49405ec31fe73d1906ff848d26744f87e43f852cfd83da65c969d037766246bcffee8540cc2acde4b2c975ae309af28756c1c84a91076f96f6e",
+      "hash_meta": "638816f07f7b40b202e7e46bdafb0f3014e723928f07006f93f3b54ff719d2b2",
+      "seqno": 2129734
+    },
+    "service": {
+      "hostname": "f4dev.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1519158990,
+  "expire_in": 504576000,
+  "prev": "8f7454717e4650b54a4dd5a9ca3187c6f9dc6e4c670490dbf29d01ea2ea6600c",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgP8t1axglyukjYsERurVDLlRXVlWHct/z7mW0Sa6jO7QKp3BheWxvYWTFA0B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwM2ZjYjc1NmIxODI1Y2FlOTIzNjJjMTExYmFiNTQzMmU1NDU3NTY1NTg3NzJkZmYzZWU2NWI0NDlhZWEzM2JiNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwM2ZjYjc1NmIxODI1Y2FlOTIzNjJjMTExYmFiNTQzMmU1NDU3NTY1NTg3NzJkZmYzZWU2NWI0NDlhZWEzM2JiNDBhIiwidWlkIjoiNzlkZGJjMzE3Yjg5MjRhYTJlNTc2OTJjYTI3OWU0MTkiLCJ1c2VybmFtZSI6InNrb3ZhbnNreSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxOTE1ODk0MiwiaGFzaCI6IjBhOGYzY2ZiY2JmZWY0OTQwNWVjMzFmZTczZDE5MDZmZjg0OGQyNjc0NGY4N2U0M2Y4NTJjZmQ4M2RhNjVjOTY5ZDAzNzc2NjI0NmJjZmZlZTg1NDBjYzJhY2RlNGIyYzk3NWFlMzA5YWYyODc1NmMxYzg0YTkxMDc2Zjk2ZjZlIiwiaGFzaF9tZXRhIjoiNjM4ODE2ZjA3ZjdiNDBiMjAyZTdlNDZiZGFmYjBmMzAxNGU3MjM5MjhmMDcwMDZmOTNmM2I1NGZmNzE5ZDJiMiIsInNlcW5vIjoyMTI5NzM0fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImY0ZGV2Lm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40MCJ9LCJjdGltZSI6MTUxOTE1ODk5MCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI4Zjc0NTQ3MTdlNDY1MGI1NGE0ZGQ1YTljYTMxODdjNmY5ZGM2ZTRjNjcwNDkwZGJmMjlkMDFlYTJlYTY2MDBjIiwic2Vxbm8iOjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAuUZE0nNcRoKxXYtyhbWSm6hbHtWgUMcVvNKpE6aQq5B7F+Yd9+Fcs+s1IBENIqp8SP/5gTc6wq8YqkDVw6JCAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID/vykzsPQyNOGVOdd32iO8dSDUEt/ydZRd/lHV/vlSWo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/skovansky
+
+==================================================================
