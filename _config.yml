@@ -2,7 +2,7 @@
 title: F4 Developer
 description: "F4 Junior Developer, Java, WEB"
 baseurl: ""
-url: "http://f4dev.me"
+url: "https://f4dev.me"
 
 # User settings
 username: Stanislaw Kowanski
@@ -10,7 +10,7 @@ user_title: Stanisław Kowański - Junior Dev
 email: root@f4dev.me
 github_username:  MrKajmaK
 facebook_username: kajmaken
-profile_picture: http://f4dev.me/logo.png
+profile_picture: https://f4dev.me/logo.png
 
 # Build settings
 markdown: kramdown
