@@ -37,14 +37,14 @@ links:
       url: /portfolio
       key_trigger: 3
   section_2:
-    - title: github
+    - title: GitHub
       url: http://www.github.com/mrkajmak
       key_trigger: g
-    - title: search
+    - title: Szukaj
       url: ""
       key_trigger: s #WARNING: search only works with "s"
   section_3:
-    - title: xqode
+    - title: xQode
       url: http://xqode.pro
       key_trigger: x
 
