@@ -8,8 +8,7 @@ url: "https://www.f4dev.me"
 username: Stanislaw Kowanski
 user_title: Stanisław Kowański - Junior Dev
 email: root@f4dev.me
-github_username:  MrKajmaK
-facebook_username: kajmaken
+github_username:  kovansky
 profile_picture: https://www.f4dev.me/logo.png
 
 # Build settings
@@ -38,7 +37,7 @@ links:
       key_trigger: 3
   section_2:
     - title: GitHub
-      url: http://www.github.com/mrkajmak
+      url: http://www.github.com/kovansky
       key_trigger: g
     - title: Szukaj
       url: ""
@@ -50,6 +49,11 @@ links:
 
 # projects in header index
 projects:
+  - name: PluginController
+    url: /plugincontroller
+    image: /assets/img/portfolio/PluginController.png
+    tags:
+      - Java
   - name: MCTraps
     url: /mctraps
     image: /assets/img/portfolio/MCTraps.png

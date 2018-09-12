@@ -14,7 +14,9 @@ categories:
 ---
 
 **Link do strony na Spigocie:** [https://www.spigotmc.org/resources/plugincontroller.59957/](https://www.spigotmc.org/resources/plugincontroller.59957/){:target="_blank"}
+
 **Link do repozytorium na GitHubie:** [https://github.com/kovansky/PluginController/](https://github.com/kovansky/PluginController/){:target="_blank"}
+
 **Oficjalna strona pluginu / dokumentacja na GitBooku:** [https://plugincontroller.f4dev.me](https://plugincontroller.f4dev.me){:target="_blank"}
 
 ___
