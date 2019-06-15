@@ -42,10 +42,6 @@ links:
     - title: Szukaj
       url: ""
       key_trigger: s #WARNING: search only works with "s"
-  section_3:
-    - title: xQode
-      url: http://xqode.pro
-      key_trigger: x
 
 # projects in header index
 projects:

@@ -10,7 +10,7 @@ description: "Portfolio"
 	<a class="cat active" data-filter="all">Wszystko</a>
 	{% assign tags_list = site.langs %}
 	{% if tags_list.first[0] == null %}
-	{% for tag in tags_list %}
+	{% for tag in tags_list %}i
 	<a class="cat" data-filter="{{tag | slugify}}">{{ tag }}</a>
 	{% endfor %}
 	{% else %}
