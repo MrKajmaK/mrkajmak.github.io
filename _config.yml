@@ -1,12 +1,12 @@
 # Site settings
 title: F4 Developer
-description: "F4 Junior Developer, Java, WEB"
+description: "Stanisław Kowański - programowanie. Web development, WordPress development, pluginy Minecraft, setup i administracja stron internetowych. Full stack developer. Zapraszam do kontaktu!"
 baseurl: ""
 url: "https://www.f4dev.me"
 
 # User settings
 username: Stanislaw Kowanski
-user_title: Stanisław Kowański - Junior Dev
+user_title: Stanisław Kowański - F4 Developer
 email: root@f4dev.me
 github_username:  kovansky
 profile_picture: https://www.f4dev.me/logo.png
@@ -35,6 +35,9 @@ links:
     - title: Portfolio
       url: /portfolio
       key_trigger: 3
+    - title: Oferta
+      url: /offer
+      key_trigger: 4
   section_2:
     - title: GitHub
       url: http://www.github.com/kovansky
