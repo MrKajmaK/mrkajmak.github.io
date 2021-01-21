@@ -56,7 +56,7 @@ projects:
       - Desktop
   - name: Qubatura — design and art
     url: /qubatura
-    image: /assets/img/portfolio/qubatura.png
+    image: /assets/img/portfolio/Qubatura.png
     tags:
       - Web
       - WordPress
@@ -68,7 +68,7 @@ projects:
       - WordPress
   - name: PluginController
     url: /plugincontroller
-    image: /assets/img/portfolio/plugincontroller.png
+    image: /assets/img/portfolio/PluginController.png
     tags:
       - Java
   - name: RobRoyArt
