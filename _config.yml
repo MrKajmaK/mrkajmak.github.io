@@ -1,14 +1,14 @@
 # Site settings
 title: F4 Developer
-description: "Stanisław Kowański - programowanie. Web development, WordPress development, pluginy Minecraft, setup i administracja stron internetowych. Full stack developer. Zapraszam do kontaktu!"
+description: "F4 Developer (Stanisław Kowański). Web development, WordPress development, Minecraft plugins, setup and administration of your web services. Full-stack. You are very welcome!"
 baseurl: ""
 url: "https://www.f4dev.me"
 
 # User settings
 username: Stanislaw Kowanski
-user_title: Stanisław Kowański - F4 Developer
+user_title: F4 Developer (Stanisław Kowański)
 email: root@f4dev.me
-github_username:  kovansky
+github_username: kovansky
 profile_picture: https://www.f4dev.me/logo.png
 
 # Build settings
@@ -29,50 +29,70 @@ links:
     - title: Start
       url: /
       key_trigger: 1
-    - title: O mnie
+    - title: About me
       url: /about
       key_trigger: 2
     - title: Portfolio
       url: /portfolio
       key_trigger: 3
-    - title: Oferta
+    - title: Offer
       url: /offer
       key_trigger: 4
   section_2:
     - title: GitHub
       url: http://www.github.com/kovansky
       key_trigger: g
-    - title: Szukaj
+    - title: Search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
 
 # projects in header index
 projects:
-  - name: PluginController
-    url: /plugincontroller
-    image: /assets/img/portfolio/PluginController.png
+  - name: D&D Encounter Calculator
+    url: /dde
+    image: /assets/img/portfolio/dde.png
     tags:
-      - Java
-  - name: MCTraps
-    url: /mctraps
-    image: /assets/img/portfolio/MCTraps.png
+      - GO
+      - Desktop
+  - name: Qubatura — design and art
+    url: /qubatura
+    image: /assets/img/portfolio/qubatura.png
     tags:
       - Web
+      - WordPress
+  - name: Piaseczno Scout District
+    url: /zhppiaseczno
+    image: /assets/img/portfolio/zhppiaseczno.png
+    tags:
+      - Web
+      - WordPress
+  - name: PluginController
+    url: /plugincontroller
+    image: /assets/img/portfolio/plugincontroller.png
+    tags:
       - Java
   - name: RobRoyArt
     url: /robroyart
     image: /assets/img/portfolio/robroyart.png
     tags:
       - Web
-  - name: Autorskie Studio Projektu Qubatura
-    url: /asp-qubatura
-    image: /assets/img/portfolio/Qubatura.png
+  - name: MCTraps Shop
+    url: /mctrapsshop
+    image: /assets/img/portfolio/mctraps-shop.png
     tags:
-      - Web
+      - Java
+  - name: MCTraps HelpOp
+    url: /mctrapshelpop
+    image: /assets/img/portfolio/mctraps-helpop.png
+    tags:
+      - Java
 
 langs:
   - Java
+  - GO
   - Web
+  - Desktop
+  - WordPress
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

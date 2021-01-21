@@ -4,7 +4,7 @@ title: "Minecraft - PluginController"
 image: '/assets/img/portfolio/PluginController.png'
 date: 2018-09-12 23:35:00
 tags:
-- Web
+- Java
 description: 'PluginController - Manage your plugins like a boss!'
 categories:
 - Portfolio
@@ -13,16 +13,12 @@ categories:
 - Plugin
 ---
 
-**Link do strony na Spigocie:** [https://www.spigotmc.org/resources/plugincontroller.59957/](https://www.spigotmc.org/resources/plugincontroller.59957/){:target="_blank"}
+**Spigot address:** [https://www.spigotmc.org/resources/plugincontroller.59957/](https://www.spigotmc.org/resources/plugincontroller.59957/){:target="_blank"}
 
-**Link do repozytorium na GitHubie:** [https://github.com/kovansky/PluginController/](https://github.com/kovansky/PluginController/){:target="_blank"}
+**GitHub repository address:** [https://github.com/kovansky/PluginController/](https://github.com/kovansky/PluginController/){:target="_blank"}
 
-**Oficjalna strona pluginu / dokumentacja na GitBooku:** [https://plugincontroller.f4dev.me](https://plugincontroller.f4dev.me){:target="_blank"}
+**Official website/documentation:** [https://plugincontroller.f4dev.me](https://plugincontroller.f4dev.me){:target="_blank"}
 
 ___
 
-Mój pierwszy oficjalny plugin do gry [Minecraft](https://minecraft.net){:target="_blank"} :)
-Jest to rewrite pluginu [Plugin Manager Reloaded](https://www.spigotmc.org/resources/plugin-manager-reloaded.7144/) z 
-dodatkowymi funkcjami - wyszuiwaniem i pobieraniem pluginów z repozytorium Spigota.
-
-Zapraszam do zapoznania się ze wszystkimi funkcjami pluginu na [jego stronie](https://plugincontroller.f4dev.me).
+Minecraft plugin. Rewrite of the [Plugin Manager Reloaded](https://www.spigotmc.org/resources/plugin-manager-reloaded.7144/). Used to manage (enable, disable, reload) your other plugins without need to restart/reload the whole server. More details in documentation/on Spigot.
