@@ -48,6 +48,12 @@ links:
 
 # projects in header index
 projects:
+  - name: Polish Kendama Community
+    url: /pkc
+    image: /assets/img/portfolio/pkc.png
+    tags:
+      - GO
+      - Web
   - name: D&D Encounter Calculator
     url: /dde
     image: /assets/img/portfolio/dde.png
